@@ -1,3 +1,4 @@
+<?php if ( ! defined( 'ABSPATH' ) ) { exit; } ?>
 <div class="copyrightInfo">
     <p>
         <strong style="float: right;font-weight: 600;font-size: 11px;text-align: right;">

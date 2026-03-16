@@ -69,7 +69,7 @@
 	<div class="apiSubHeader" style="padding: 18px 16px;">
 		<h2 style="font-size: 1.5em"><i class="fa fa-cog" style="margin-right: 5px"></i> Plugin Settings</h2>
 	</div>
-	<form method="post" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI'] ); ?>">
+	<form method="post" action="<?php echo esc_url( admin_url( 'edit.php?post_type=clickfunnels&page=cf_api' ) ); ?>">
 		
 		<?php wp_nonce_field( 'sudowp_cf_zurich_save_settings', 'sudowp_cf_zurich_nonce_field' ); ?>
 

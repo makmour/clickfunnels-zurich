@@ -101,7 +101,7 @@ class SudoWPClickFunnelsZurich {
 		$method = get_option( 'clickfunnels_display_method' );
 
 		if ( $method == 'download' ) {
-			echo $this->get_page_content( $url );
+			echo wp_kses_post( $this->get_page_content( $url ) );
 		} elseif ( $method == 'iframe' ) {
 			echo $this->get_page_iframe( $url );
 		} elseif ( $method == 'redirect' ) {
