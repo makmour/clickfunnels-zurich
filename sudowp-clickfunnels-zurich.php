@@ -3,7 +3,7 @@
  * Plugin Name: SudoWP Zurich for ClickFunnels
  * Plugin URI: https://github.com/Sudo-WP/sudowp-clickfunnels-zurich
  * Description: An unofficial, security-patched fork of the legacy ClickFunnels plugin. Fixes Stored XSS vulnerabilities (CVE-2022-4782) and improves PHP compatibility.
- * Version: 0.1.2
+ * Version: 0.1.3
  * Author: SudoWP (Maintained by WP Republic)
  * Author URI: https://github.com/Sudo-WP
  * Text Domain: sudowp-clickfunnels-zurich
@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // Define Version Constant
 if ( ! defined( 'SUDOWP_CF_ZURICH_VERSION' ) ) {
-	define( 'SUDOWP_CF_ZURICH_VERSION', '0.1.2' );
+	define( 'SUDOWP_CF_ZURICH_VERSION', '0.1.3' );
 }
 
 if ( ! defined( 'CF_API_URL' ) ) {
